@@ -1,14 +1,8 @@
 {
-  "name": "Java 11, 17, 21 with SDKMAN",
-  "image": "mcr.microsoft.com/devcontainers/universal:2",
-  "runCommands": [
-    // Install SDKMAN
-    "curl -s \"https://get.sdkman.io\" | bash",
-    // Source SDKMAN initialization script
-    "source \"$HOME/.sdkman/bin/sdkman-init.sh\"",
-    // Install Java 11
-    "sdk install java 11.0.0-open",
-    // Set Java 11 as default (optional)
-    "sdk default java 11.0.0-open"
-  ]
+  "name": "Java SDK DevContainer",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  "postCreateCommand": "echo 'source \"$HOME/.sdkman/bin/sdkman-init.sh\"' >> ~/.bashrc",
+  "remoteUser": "vscode"
 }
