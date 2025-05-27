@@ -20,7 +20,9 @@
 		"vscode": {
 			"settings": {},
 			"extensions": [
-				"streetsidesoftware.code-spell-checker"
+				"streetsidesoftware.code-spell-checker",
+				"vscjava.vscode-java-pack",
+				"pleiades.java-extension-pack-jdk"
 			]
 		}
 	}
