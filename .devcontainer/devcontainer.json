@@ -3,29 +3,25 @@
 {
 	"name": "Java",
 	// Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
-	"image": "mcr.microsoft.com/devcontainers/java:1-21-bullseye",
+	"image": "mcr.microsoft.com/devcontainers/java:1-21",
 
 	"features": {
 		"ghcr.io/devcontainers/features/java:1": {
 			"version": "none",
 			"installMaven": "true",
-			"installGradle": "true"
-		},
-		"ghcr.io/devcontainers-extra/features/apt-get-packages:1": {
-			"clean_ppas": true,
-			"preserve_apt_list": true,
-			"force_ppas_on_non_ubuntu": true,
-			"packages": "build-essential",
-			"ppas": "ppa:deadsnakes/ppa"
-		},
-		"ghcr.io/devcontainers-extra/features/apt-packages:1": {
-			"clean_ppas": true,
-			"preserve_apt_list": true,
-			"packages": "htop",
-			"ppas": "ppa:deadsnakes/ppa"
-		},
-		"ghcr.io/devcontainers-extra/features/autoenv:1": {
-			"version": "latest"
+			"mavenVersion": "3.8.6",
+			"installGradle": "false"
+		}
+	},
+
+	// Configure tool-specific properties.
+	"customizations": {
+		// Configure properties specific to VS Code.
+		"vscode": {
+			"settings": {},
+			"extensions": [
+				"streetsidesoftware.code-spell-checker"
+			]
 		}
 	}
 
@@ -34,9 +30,6 @@
 
 	// Use 'postCreateCommand' to run commands after the container is created.
 	// "postCreateCommand": "java -version",
-
-	// Configure tool-specific properties.
-	// "customizations": {},
 
 	// Uncomment to connect as root instead. More info: https://aka.ms/dev-containers-non-root.
 	// "remoteUser": "root"
