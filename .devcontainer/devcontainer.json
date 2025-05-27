@@ -8,7 +8,7 @@
       },
       "extensions": [
         "redhat.java",
-        "georgewfraser.vscode-javac",
+        "formulahendry.code-runner",
         "visualstudioexptteam.vscodeintellicode",
         "pleiades.java-extension-pack-jdk",
         "vscjava.vscode-java-debug",
