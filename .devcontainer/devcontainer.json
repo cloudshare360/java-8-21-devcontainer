@@ -8,6 +8,9 @@
       },
       "extensions": [
         "redhat.java",
+        "georgewfraser.vscode-javac",
+        "visualstudioexptteam.vscodeintellicode",
+        "pleiades.java-extension-pack-jdk",
         "vscjava.vscode-java-debug",
         "pleiades.java-extension-pack-jdk",
         "vscjava.vscode-java-pack",
