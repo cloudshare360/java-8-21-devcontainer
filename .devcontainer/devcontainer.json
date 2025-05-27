@@ -18,12 +18,15 @@
 	"customizations": {
 		// Configure properties specific to VS Code.
 		"vscode": {
-			"settings": {},
+			"settings": {
+				
+			},
 			"extensions": [
+				"redhat.java",
 				"VisualStudioExptTeam.vscodeintellicode",
-				"streetsidesoftware.code-spell-checker",
 				"vscjava.vscode-java-pack",
-				"pleiades.java-extension-pack-jdk"
+				"pleiades.java-extension-pack-jdk",
+				"streetsidesoftware.code-spell-checker"
 			]
 		}
 	}
