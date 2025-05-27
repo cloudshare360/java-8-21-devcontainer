@@ -9,6 +9,7 @@
       "extensions": [
         "redhat.java",
         "vscjava.vscode-java-debug",
+        "pleiades.java-extension-pack-jdk",
         "vscjava.vscode-java-pack",
         "ms-vscode.gradle-language-service",
         "golang.go"
