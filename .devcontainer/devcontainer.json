@@ -20,6 +20,7 @@
 		"vscode": {
 			"settings": {},
 			"extensions": [
+				"VisualStudioExptTeam.vscodeintellicode",
 				"streetsidesoftware.code-spell-checker",
 				"vscjava.vscode-java-pack",
 				"pleiades.java-extension-pack-jdk"
